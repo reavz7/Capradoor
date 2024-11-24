@@ -1,0 +1,29 @@
+/* PALETA KOLORÓW
+  ##EEEEEE   main one   
+  #D6CCC2  second one
+  #F5EBE0   third one
+  #E3D5CA   navbar links
+  #D5BDAF  extra components
+
+
+  /* kolor skonwertowane na podstawie palety w opencolor
+  #ced4da
+  #868e96
+  
+  */
+.oferta-heading{
+    text-align: center;
+    font-size: 8.6rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.oferta-description{
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 400;
+    color: #91877f;
+    margin-bottom: 6.4rem;
+}
+.oferta-opis{
+    font-size: 4.4rem;
+}

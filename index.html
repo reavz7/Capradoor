@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Capradoor jest stroną restauracji" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime('css/style.css'); ?>" />
+    <link rel="stylesheet" href="css/general.css?v=<?php echo filemtime('css/general.css'); ?>" />
+    <link rel="stylesheet" href="css/queries.css?v=<?php echo filemtime('css/queries.css'); ?>" />
+
+
+
+    <!-- import ikon i skryptu -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script defer src="js/behaviour.js?v=<?php echo filemtime('js/behaviour.js'); ?>"></script>
+
+    <title>Capradoor</title>   
+    <link rel="icon" href="assets/logo_temporary.png" type="image/png" />
+  </head>
+  <body>
+    
+<div class="bg-image">  
+    <header class="header">
+      <a href="#">
+        <img src="assets/logo_temporary.png" alt="capradoor logo" class="logo" />
+      </a>  
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#">Strona główna</a></li>  
+            <li class="dropdown">
+              <a class="main-nav-link" href="oferta.html"> 
+                <span class="menu-text">Oferta</span>
+                <ion-icon class="arrow-icon" name="arrow-down-circle-outline"></ion-icon>
+              </a>
+              
+              <ul class="dropdown-menu">
+                <li><a href="test1.html">Drzwi zewnętrzne drewniane</a></li>
+                <li><a href="#drzwi-wewnetrzne-drewniane">Drzwi wewnętrzne drewniane</a></li>
+                <li><a href="#drzwi-wewnetrzne-plytowe">Drzwi wewnętrzne płytowe</a></li>   
+                <li><a href="#akcesoria">Akcesoria</a></li>
+                <li><a href="#indywidualne-projekty">Indywidualne projekty</a></li>
+              </ul>
+            </li>
+            
+            
+          <li><a class="main-nav-link" href="#">Realizacje</a></li>
+          <li><a class="main-nav-link" href="#">O nas</a></li>  
+          <li>   
+            <a href="#" class="main-nav-link nav-cta button_main button-27">
+                Kontakt
+            </a>
+        </li>
+        
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+    <section class="section-hero" id="hero-section">
+  <div class="hero-container">              
+    <div class="hero" id="hero-animation">
+      <div class="hero-text-box">
+        <h1 class="heading-primary">Carpadoor</h1>
+        <p class="hero-description">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+      <div>
+        <a href="#cta" class="button-27 margin-right-smf">Oferta</a>
+        <a href="#howitworks" class="btn-addictional margin-right-smf button-27 ">Nasze katalogi</a>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+
+
+    
+    <!-- SECTION HOW -->
+    <section class="section-how" id="howitworks">
+      <div class="container">
+          <span class="subheading">Pewnie spytasz</span>
+          <h2 class="heading-secondary">Dlaczego akurat my?</h2>
+
+      </div>
+
+      <!-- STEP 1 -->
+      <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+              <p class="step-number">01</p>
+              <h3 class="heading-tertiary">Producent drzwi</h3>
+              <p class="step-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque numquam vitae nesciunt. Dolor, quibusdam? Nisi, exercitationem? Molestiae at quam corrupti! Iusto aliquam consequuntur illum. Porro vero nihil autem in nam.
+              </p>
+          </div>
+          <div class="step-img-box">
+              <img src="assets/drzwi_step1.png" class="step-img" alt="iPhone app choosing the best restaurant for you">
+      </div>
+      
+      <!-- STEP 2 -->
+
+          <div class="step-img-box ">
+              <img src="assets/pomiar.png" class="step-img step2_image" alt="iPhone app showing us when the food is gonna arrive">
+          </div>
+          <div class="step-text-box">
+              <p class="step-number">02</p>
+              <h3 class="heading-tertiary">Pomiar i doradztwo</h3>
+              <p class="step-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, maxime aperiam ad officiis placeat, temporibus qui aliquam repellat voluptatibus assumenda, veniam doloribus neque voluptate vel hic molestias quaerat rem tempora.
+              </p>
+          </div>
+
+      <!-- STEP 3 -->
+      <div class="step-text-box">
+          <p class="step-number">03</p>
+          <h3 class="heading-tertiary">Dostawa i montaż</h3>
+          <p class="step-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iste, earum ipsa inventore cupiditate vel nisi dignissimos quam iusto aliquid explicabo fuga soluta! Suscipit impedit dolores ex beatae possimus. Sequi?
+          </p>
+      </div>
+      <div class="step-img-box">
+          <img src="assets/image-removebg-preview.png" class="step-img step2_image" alt="iPhone app choosing the best restaurant for you">
+      </div>
+      </div>
+  </div>
+   </section>
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="container grid--footer">
+        <div class="logo-col">
+          <a href="#">
+            <img
+              src="assets/logo_temporary.png"
+              alt="Capradoor logo"
+              class="logo logo-footer-fix"
+          /></a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-tiktok"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Capradoor, Inc. All
+            rights reserved
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Kontakt</p>
+          <address class="contacts">
+            <p class="address">Polska, Łódź, Kilińskiego 46 Street, 90-256</p>
+            <p>
+              <a class="footer-link" href="tel:123-123-123">+48 123-123-123</a
+              ><br />
+              <a class="footer-link" href="mailto:swiftdropsupport@gmail.com"
+                >Capradoor@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Firma</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">O nas</a></li>
+            <li><a class="footer-link" href="#">Praca</a></li>
+            <li><a class="footer-link" href="#">Nasi partnerzy</a></li>
+            <li><a class="footer-link" href="#">Kariery</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Konto</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Stwórz konto</a></li>
+            <li><a class="footer-link" href="#">Zaloguj się</a></li>
+            <li><a class="footer-link" href="#">iOS</a></li>
+            <li><a class="footer-link" href="#">Android</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Zasoby</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Pomoc</a></li>
+            <li><a class="footer-link" href="#">Prywatność i warunki</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+
+
