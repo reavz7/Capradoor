@@ -27,3 +27,16 @@
 .oferta-opis{
     font-size: 4.4rem;
 }
+.oferta-szczegoly{
+    font-size: 1.8rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 3rem;
+    max-width: 100%;
+}
+.kolekcja-foto{
+    max-width: 100%;
+}
