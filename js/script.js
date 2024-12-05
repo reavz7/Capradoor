@@ -140,7 +140,7 @@ checkFlexGap();
      const lataElement = document.getElementById('lata');
      const czasElement = document.getElementById('czas');
 
-     lataElement.textContent = `${years} lat ${months} miesięcy ${days} dni na rynku`;
+     lataElement.textContent = `${years} lat | ${months} mies. | ${days} dni `;
      const now = new Date();
      czasElement.textContent = `Dziś jest ${now.toLocaleDateString()}, godzina ${now.toLocaleTimeString()}`;
  }
@@ -148,3 +148,4 @@ checkFlexGap();
  // Ustaw aktualizację czasu i daty
  updateDisplay();
  setInterval(updateDisplay, 1000);
+ 

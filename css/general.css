@@ -91,6 +91,7 @@
     user-select: none;
     touch-action: manipulation;
   }
+ 
   
   .button-27:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
@@ -107,4 +108,42 @@
   .btn-addictional {
     background-color: #F1DABF;
     color: #1f1f1f;
+  }
+
+
+
+  .button-29 {
+    appearance: none;
+    background-color: white;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex; /* Flexbox do centrowania */
+    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;  
+    font-weight: 500;
+    min-height: 60px;
+    padding: 1rem 2.6rem; /* Odstępy wewnętrzne */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    touch-action: manipulation;
+  }
+ 
+  
+  .button-29:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-color: black;
+    color: white;
+  }
+  
+  .button-29:active {
+    box-shadow: none;
+    transform: translateY(0);
   }

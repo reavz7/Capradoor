@@ -45,8 +45,8 @@ JASNY- #FFFBFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c1d13be ;
-
+    background-color:  white ;
+    
     /* adding height because in future i want the navbar to be sticky */
     height: 9rem;
     padding: 0 4.8rem;
@@ -63,28 +63,28 @@ JASNY- #FFFBFF;
   .main-nav-link:visited {
     display: inline-block;
     text-decoration: none;
-    color: #e0e0e0;
+    color: black;
     font-weight: 500;
     font-size: 1.6rem;
     transition: all 0.2s;
   }
   .main-nav-link:hover,
   .main-nav-link:active {
-    color: #ffb300;
-    transform: perspective(1rem) scale(1.05);
+    color: #742e00;
+    transform: perspective(1rem) scale(1.15);
   }
   
   .main-nav-link.nav-cta:link,
   .main-nav-link.nav-cta:visited {
     padding: 1.9rem 2rem;
-    background-color: #D5BDAF;  
+    background-color: white;  
     border-radius: 14px;
     color: #000000;
   }
   .main-nav-link.nav-cta:hover,
   .main-nav-link.nav-cta:active {
-    background-color: #362417;
-    color: #ffb300;
+    background-color: black;
+    color: white;
   }
   .dropdown {
     position: relative;
@@ -192,7 +192,7 @@ JASNY- #FFFBFF;
     top: 0;
     bottom: 0;
     width: 100%;
-    background-color: #362417;
+    background-color: white;
     z-index: 999;
     padding-top: 0;
     padding-bottom: 0;
@@ -389,7 +389,7 @@ JASNY- #FFFBFF;
 
   .kontakt-section{
     padding: 5.2rem;
-    background-color: #F1DABF;
+    background-color: #362417;
     border-top: #000000 1px solid;
     border-bottom: #000000 1px solid;
   }
@@ -404,6 +404,7 @@ JASNY- #FFFBFF;
     font-weight: 800;
     letter-spacing: 1.2px;
     margin-bottom: 3.2rem;
+    color: white;
   }
   .kontakt-description{
     text-align: center;
@@ -411,6 +412,7 @@ JASNY- #FFFBFF;
     letter-spacing: 0.4px;
     line-height: 3rem;
     margin-bottom: 4rem;
+    color: white;
   }
   /* --------------------------------------Footer---------------------------------- */
   .footer {
@@ -488,10 +490,12 @@ JASNY- #FFFBFF;
     justify-content: center;
     align-items: center;        
     flex-direction: column;
-    padding: 6rem;
-    background-color: #926830dc;
-    color: gold;
+    padding: 4rem;
+    background: rgb(241,218,191);
+background: linear-gradient(317deg, rgba(241,218,191,1) 0%, rgba(82,63,48,1) 67%, rgba(54,36,23,1) 100%);
+    color: #D6CCC2 ;
 }
+
 .lata{      
     font-size: 7.8rem;
     font-weight: 700;
