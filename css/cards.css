@@ -24,19 +24,50 @@
     color: #91877f;
     margin-bottom: 6.4rem;
 }
-.oferta-opis{
-    font-size: 4.4rem;
+.swiper {
+    width: 100%;
+    height: 60rem;
+  }
+
+  .swiper-slide {
+    padding: 1rem;
+    text-align: center;
+    font-size: 3.4rem;
+    background: #F1DABF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.card-title{
+    margin-bottom: 2rem;
 }
-.oferta-szczegoly{
-    font-size: 1.8rem;
-}
-.info{
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .card{
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    gap: 3rem;
-    max-width: 100%;
-}
-.kolekcja-foto{
-    max-width: 100%;
-}
+    align-items: center;
+    justify-content: center;
+  }
+  .card img{
+    height: 30rem;
+    width: 30rem;
+  }

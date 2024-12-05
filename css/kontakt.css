@@ -1,0 +1,46 @@
+.danekontaktowe-sekcja{
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    padding-top: 6.4rem;
+}
+.dane-kontaktowe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+    gap: 10rem;
+}
+.text-dane-kontaktowe{
+    font-size: 1.88rem;
+    margin-bottom: .6rem;
+}
+.lewo i{
+    margin-bottom: 2rem;
+}   
+a, .adres p, .telefon p, .godziny-otwarcia p, .email p{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #555;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-top: 3rem;
+}
+.regulamincheck{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.contact-form input{
+    font-family: 'Poppins';
+    padding: 1.4rem;
+    border: 1px rgb(245, 245, 245) solid;
+}
+.contact-form textarea{
+    font-family: 'Poppins';
+    height: 15rem;
+    padding: 1rem;
+}

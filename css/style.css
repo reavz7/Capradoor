@@ -1,17 +1,14 @@
-/* PALETA KOLORÓW
-  ##EEEEEE   main one   
-  #D6CCC2  second one
-  #F5EBE0   third one
-  #E3D5CA   navbar links
-  #D5BDAF  extra components
+/* 
+PALETA KOLOROW
 
+CZARNY- #000500;
+BRĄZOWY- #362417;
+KARMELOWO-BRĄZOWY- #92817A;
+KARMELOWY- #F1DABF;
+JASNY- #FFFBFF;
 
-  /* kolor skonwertowane na podstawie palety w opencolor
-  #ced4da
-  #868e96
-  
-  */
-
+*/      
+@import url('https://fonts.cdnfonts.com/css/elegant-2');
   * {
     margin: 0;
     padding: 0;
@@ -34,8 +31,9 @@
   
   /* ------------------------------HEADER------------------------------- */
   
-  .logo {
+  .logo {   
     height: 12rem;
+    margin-top: 2rem;
     transition: ease-in-out 0.2s;
   }
   .logo:hover {
@@ -47,10 +45,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(63, 57, 55, 0.849);
-    
+    background-color: #2c1d13be ;
+
     /* adding height because in future i want the navbar to be sticky */
-    height: 12rem;
+    height: 9rem;
     padding: 0 4.8rem;
   }
   
@@ -60,14 +58,14 @@
     display: flex;
     align-items: center;
     gap: 2.8rem;
-  }
+  } 
   .main-nav-link:link,  
   .main-nav-link:visited {
     display: inline-block;
     text-decoration: none;
     color: #e0e0e0;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.6rem;
     transition: all 0.2s;
   }
   .main-nav-link:hover,
@@ -78,14 +76,14 @@
   
   .main-nav-link.nav-cta:link,
   .main-nav-link.nav-cta:visited {
-    padding: 1.6rem 2.4rem;
+    padding: 1.9rem 2rem;
     background-color: #D5BDAF;  
     border-radius: 14px;
     color: #000000;
   }
   .main-nav-link.nav-cta:hover,
   .main-nav-link.nav-cta:active {
-    background-color: #525252;
+    background-color: #362417;
     color: #ffb300;
   }
   .dropdown {
@@ -126,11 +124,12 @@
   }
   
   .menu-text {
-    font-size: 2rem; /* Rozmiar tekstu dla dopasowania do ikony */
+    font-size: 1.6rem; /* Rozmiar tekstu dla dopasowania do ikony */
   }
   
   .dropdown:hover .arrow-icon {
     transform: rotate(180deg); /* Obrót ikony w dół */
+    
   }
   
   
@@ -151,7 +150,9 @@
     
   }
   .arrow-icon {
-    font-size: 2rem;
+    margin-bottom: .3rem;
+    font-size: 1.6rem;
+    text-align: center;
     margin-left: .5rem; /* Odstęp między tekstem a ikoną */
     transition: transform 0.3s ease-in-out;
   }
@@ -191,11 +192,11 @@
     top: 0;
     bottom: 0;
     width: 100%;
-    background-color: #353535;
+    background-color: #362417;
     z-index: 999;
     padding-top: 0;
     padding-bottom: 0;
-    height: 14rem;
+    height: 10rem;
     box-shadow: 0 1.2rem 3.2rem #393e46ad;
   }
 
@@ -225,7 +226,7 @@
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 3.2rem;
-    color: #ffe066;
+    color:  #F1DABF;
     margin-top: 20rem;
   }
   .heading-secondary {
@@ -257,7 +258,7 @@
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 6.8rem;
-    color: #F5EBE0;
+    color: #FFFBFF;
   }
 
 
@@ -265,7 +266,7 @@
 .section-how, .realizacje-section{
   padding: 16.6rem 0 0 0;
 }
-.step-img{
+.step-img{  
   width: 45%;
   z-index: 10;
 }
@@ -276,11 +277,12 @@
 .step-number{
   font-size: 10rem;
   font-weight: 600;
-  color: #868e96;
+  color: #362417;
   margin-bottom: 1.2rem;
 }
 .step-description{
   font-size: 1.8rem;
+  color: #92817A;
   line-height: 1.8;
 }
 .step-img-box{
@@ -296,7 +298,7 @@
   display: block;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%;  
   transform: translate(-50%, -50%);
   /* background-color: #FFD369 ;
   width: 75%;
@@ -304,7 +306,7 @@
   border-radius: 50%;
 }
 .step-img-box::before{
-  background-color: #F5EBE0 ;
+  background-color: #523928;
   width: 75%;
   padding-bottom: 75%;
   z-index: -2;
@@ -312,7 +314,7 @@
 .step-img-box::after{
   width: 60%;
   padding-bottom: 60%;
-  background-color: #E3D5CA;
+  background-color: #362417;
   z-index: -1;
 }
 
@@ -325,7 +327,7 @@
   .btn:visited, 
   .button_main {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1.6rem 3.2rem;
     border-radius: 14px;
     text-decoration: none;
@@ -341,7 +343,7 @@
   
   .btn--full:hover,
   .btn--full:active {
-    background-color: #1d2024;
+    background-color: #362417;
     color: #eeeeee;   
   }
   .btn--outline:link,
@@ -366,12 +368,52 @@
     background-image: url("../assets/temporary_main_bg.jpg");
     
   }
-  
+
+  .realizacje-heading{
+    text-align: center; 
+    font-size: 6.4rem;    
+    margin-top: 10rem;  
+    padding-top: 20rem;
+  }
+  .section-realizacje{
+     background-color: #D5BDAF;
+  }
+  .instagram-media{
+    height: 50rem;
+  } 
+
+  /* REALIZACJE */
   
 
+  /* KONTAKT */
+
+  .kontakt-section{
+    padding: 5.2rem;
+    background-color: #F1DABF;
+    border-top: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+  .kontakt-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .kontakt-heading{ 
+    font-size: 4.2rem;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    margin-bottom: 3.2rem;
+  }
+  .kontakt-description{
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.4px;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+  }
   /* --------------------------------------Footer---------------------------------- */
   .footer {
-    margin-top: 110rem;
     padding: 12.8rem 0;
     border-top: 1px solid #eeeeee;
   }
@@ -441,5 +483,26 @@
   .footer-link:active {
     color: #393e46;
   }
-  
-  
+  .glamour-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    flex-direction: column;
+    padding: 6rem;
+    background-color: #926830dc;
+    color: gold;
+}
+.lata{      
+    font-size: 7.8rem;
+    font-weight: 700;
+    font-family: 'ELEGANT', sans-serif;
+    letter-spacing: 1.5px;
+}
+.lata-opis{
+font-size: 2.4rem;
+margin-top: 3rem;
+font-family: 'ELEGANT', sans-serif;
+letter-spacing: 1.5px;
+}
+
+ 

@@ -1,0 +1,41 @@
+
+.onas-heading{
+margin-top: 9rem;
+margin-bottom: 2rem;
+font-size: 6.4rem;  
+font-weight: 600;
+} 
+.onas-opis{
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 6rem;
+}
+.footer{
+    margin-top: 10rem; /* opcjonalnie, aby stopka miała trochę przestrzeni od góry */
+}       
+.banery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;            
+    justify-content: center;  
+    gap: 20rem;  
+}      
+.baner {
+    display: flex; /* Tworzy układ flexbox dla każdego baneru */
+    flex-direction: column; /* Ustawia ikonę nad tekstem */
+    align-items: center; /* Centruje ikonę i tekst w pionie */
+    justify-content: center; /* Opcjonalne: dodatkowe centrowanie */
+}     
+.baner i{
+    margin-bottom: 1rem;
+}
+.baner .baner-tekst{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: .6rem;
+}
+.baner .baner-opis{
+    font-size: 1.2rem;
+    
+}

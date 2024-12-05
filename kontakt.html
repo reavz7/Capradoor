@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime('css/style.css'); ?>" />
     <link rel="stylesheet" href="css/general.css?v=<?php echo filemtime('css/general.css'); ?>" />
     <link rel="stylesheet" href="css/queries.css?v=<?php echo filemtime('css/queries.css'); ?>" />
+    <link rel="stylesheet" href="css/kontakt.css">
     <link rel="stylesheet" href="css/onas.css?v=<?php echo filemtime('css/onas.css'); ?>" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
@@ -74,7 +75,7 @@
           <li><a class="main-nav-link" href="#realizacje">Realizacje</a></li>
           <li><a class="main-nav-link" href="onas.html">O nas</a></li>  
           <li>   
-            <a href="kontakt.html" class="main-nav-link nav-cta button_main button-27">
+            <a href="#" class="main-nav-link nav-cta button_main button-27">
                 Kontakt
             </a>
         </li> 
@@ -87,41 +88,69 @@
       </button>   
     </header>       
     <main>      
-        
-        <section class="onas-section">
-            
-            <div class="section-onas container">        
-                <h1 class="onas-heading">O firmie Drzwi Kozioł</h1>
-                <p class="onas-opis">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. At non assumenda facilis cum minus hic mollitia animi tenetur, 
-                    unde quos. Placeat praesentium nulla beatae veritatis sint inventore ea quo consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sed nostrum quisquam iusto assumenda facere illo est cum, 
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis velit deleniti doloribus consequuntur odit ducimus. Laboriosam eligendi non vel voluptatibus, doloribus earum pariatur nisi aliquid quas consequatur repudiandae dolorem modi. enim molestias ducimus dolore eius ratione quia libero consequuntur suscipit reprehenderit. Ea!
-                </p>
+        <section class="kontaktform-section">
+            <div class="section-kontaktform grid grid--2-cols container">
+              <div class="lewo">
+                    <p class="danekontaktowe-sekcja">Dane kontaktowe</p>
+                <div class="dane-kontaktowe">
+                    <div class="adres">   
+                        <i class="fa-solid fa-map-location-dot fa-5x"></i>
+                        <p class="text-dane-kontaktowe">Adres</p>
+                        <p class="adres-metalbud">Metal-Bud 97-400 Bełchatów ul.Piłsudskiego 110</p>
+                        <p class="adres-metalbud">Zakład produkcyjny 97-371 Gomulin Kolonia ul. Wesoła 23</p>
+                    </div>  
+                    <div class="telefon">
+                        <i class="fa-solid fa-mobile-screen-button fa-5x"></i>
+                        <p class="text-dane-kontaktowe">Telefon</p>  
+                        <a href="tel:+48123456789" class="linkto">+48 123 456 789</a>
+                    </div>
+                    <div class="godziny-otwarcia">  
+                        <i class="fa-regular fa-clock fa-5x"></i>
+                        <p class="text-dane-kontaktowe">Godziny otwarcia</p>
+                        <p class="adres-metalbud">Pn - Pt: 9.00 - 17.00</p> 
+                        <p class="adres-metalbud">So: po wcześniejszym uzgodnieniu telefonicznym</p> 
+                    </div>
+                    <div class="email">
+                        <i class="fa-regular fa-envelope fa-5x"></i>
+                        <p class="text-dane-kontaktowe">E-mail</p> 
+                        <a href="mailto:example@example.com" class="linkto">example@example.com</a>
+                    </div>
+                </div>
+              </div>
+
+
+                <div class="prawo">
+                    <p class="danekontaktowe-sekcja">Formularz kontaktowy</p>
+                <div class="formularz kontaktowy">
+                  <form class="contact-form"> 
+                
+                    <label for="name">Imię i nazwisko:</label>
+                    <input type="text" id="name" name="name" placeholder="Wpisz swoje imię i nazwisko" required>
+                
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Wpisz swój adres e-mail" required>
+                
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Wpisz swój numer telefonu" required>
+                
+                    <label for="message">Wiadomość:</label>
+                    <textarea id="message" name="message" placeholder="Wpisz swoją wiadomość" required></textarea>
+                
+                    <div class="checkbox regulamincheck">
+                      <input type="checkbox" id="agreement" name="agreement" required>
+                      <label for="agreement" class="regulamincheck">Zapoznałem się z regulaminem</label>
+                    </div>
+                    <button type="submit" class="button-27">Wyślij</button>
+                  </form>
+                </div>
+              </div>
+
+
+
+
             </div>
-            <div class="banery">
-                <div class="baner">     
-                    <i class="fa-solid fa-graduation-cap fa-5x"></i>       
-                    <p class="baner-tekst">Liczne certyfikaty</p>   
-                    <p class="baner-opis">potwierdzające jakość</p>      
-                </div>
-                <div class="baner">     
-                    <i class="fa-solid fa-calendar-days fa-5x"></i>      
-                    <p class="baner-tekst">Marka z tradycjami</p>   
-                    <p class="baner-opis">20 lat na rynku</p>      
-                </div>
-                <div class="baner">     
-                    <i class="fa-solid fa-up-right-and-down-left-from-center fa-5x"></i>    
-                    <p class="baner-tekst">Największa grubość</p>   
-                    <p class="baner-opis">drzwi na rynku</p>      
-                </div>
-                <div class="baner">     
-                    <i class="fa-solid fa-box fa-5x"></i>      
-                    <p class="baner-tekst">Kompleksowa oferta</p>   
-                    <p class="baner-opis">produkujemy kilkaset wzorów</p>      
-                </div>
-            </div>  
-            
         </section>
+
     </main> 
 
     <footer class="footer">

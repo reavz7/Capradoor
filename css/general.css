@@ -14,14 +14,14 @@
   #868e96
   
   */
-/*----------------------------- DO UZYWANIA ----------------------------- */
+/*----------------------------- DO UZYWANIA ----------------------------- */    
 
 .container {
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 3.2rem;
   }
-  /* grid  */
+  
   .grid {
     display: grid;
     row-gap: 9.6rem;
@@ -55,13 +55,13 @@
     display: block;
   }
   .btn--form {
-    background-color: #393e46;
+    background-color: #362417;
     color: #eeeeee;
     align-self: end;
     padding: 1.2rem;
   }
   .btn--form:hover {
-    background-color: #1d2024;
+    background-color: #362417;
     color: #eeeeee;
   }
   .margin-bottom-smf{
@@ -95,7 +95,7 @@
   .button-27:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
-    background-color: #393e46;
+    background-color: #362417;
     color: #ffd369;
   }
   
@@ -105,7 +105,6 @@
   }
   
   .btn-addictional {
-    background-color: #f7f7f7;
+    background-color: #F1DABF;
     color: #1f1f1f;
   }
-  

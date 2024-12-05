@@ -53,7 +53,7 @@ if (allLinks.length > 0) {
 const logoLink = document.querySelector(".header a[href='#']");
 if (logoLink) {
   logoLink.addEventListener("click", function (e) {
-    e.preventDefault();
+    e.preventDefault(); 
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
@@ -107,3 +107,44 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
+
+
+ // Data początkowa
+ const startDate = new Date('2004-04-01');
+
+ // Funkcja obliczająca różnicę w latach, miesiącach i dniach
+ function calculateTimeDifference(startDate) {
+     const today = new Date();
+
+     let years = today.getFullYear() - startDate.getFullYear();
+     let months = today.getMonth() - startDate.getMonth();
+     let days = today.getDate() - startDate.getDate();
+
+     if (days < 0) {
+         months--;
+         const previousMonth = new Date(today.getFullYear(), today.getMonth(), 0);
+         days += previousMonth.getDate();
+     }
+
+     if (months < 0) {
+         years--;
+         months += 12;
+     }
+
+     return { years, months, days };
+ }
+
+ // Funkcja aktualizująca tekst
+ function updateDisplay() {
+     const { years, months, days } = calculateTimeDifference(startDate);
+     const lataElement = document.getElementById('lata');
+     const czasElement = document.getElementById('czas');
+
+     lataElement.textContent = `${years} lat ${months} miesięcy ${days} dni na rynku`;
+     const now = new Date();
+     czasElement.textContent = `Dziś jest ${now.toLocaleDateString()}, godzina ${now.toLocaleTimeString()}`;
+ }
+
+ // Ustaw aktualizację czasu i daty
+ updateDisplay();
+ setInterval(updateDisplay, 1000);
