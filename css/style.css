@@ -260,7 +260,13 @@ JASNY- #FFFBFF;
     margin-bottom: 6.8rem;
     color: #FFFBFF;
   }
-
+.nowe{
+    background-image: url("/assets/wood-2045379_1280.jpg.jpg");
+    background-size: cover;
+    background-clip:text;
+    color: transparent;
+    text-shadow: 1px -1px 17px rgba(99, 58, 15, 1);
+}
 
 /* --------------------------------------HOW IT WORKS SECTION---------------------------------- */
 .section-how, .realizacje-section{
@@ -365,8 +371,7 @@ JASNY- #FFFBFF;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url("../assets/temporary_main_bg.jpg");
-    
+    background-image: url("../assets/tlo.jpg");
   }
 
   .realizacje-heading{
