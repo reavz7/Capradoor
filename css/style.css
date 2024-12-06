@@ -33,7 +33,6 @@ JASNY- #FFFBFF;
   
   .logo {   
     height: 12rem;
-    margin-top: 2rem;
     transition: ease-in-out 0.2s;
   }
   .logo:hover {
