@@ -70,7 +70,7 @@ JASNY- #FFFBFF;
   .main-nav-link:hover,
   .main-nav-link:active {
     color: #742e00;
-    transform: perspective(1rem) scale(1.15);
+    transform: perspective(1rem) scale(1.10);
   }
   
   .main-nav-link.nav-cta:link,
