@@ -21,7 +21,12 @@
 
 
     
-    
+    <!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
 
 
     <!-- import ikon i skryptu -->
@@ -136,6 +141,26 @@
         </section>
 
     </main>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+<script>
+  // Inicjalizacja mapy (używamy OpenStreetMap)
+  var map = L.map('map').setView([51.3675, 19.3645], 10); // Współrzędne centralne Bełchatowa
+
+  // Dodanie warstwy OpenStreetMap
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Dodanie pierwszego markera (Metal-Bud Bełchatów)
+  var marker1 = L.marker([51.3675, 19.3645]).addTo(map); // Współrzędne Metal-Bud Bełchatów
+  marker1.bindPopup("<b>Metal-Bud</b><br>97-400 Bełchatów, ul. Piłsudskiego 110<br><a href='https://www.google.com/maps?q=51.3675,19.3645' target='_blank'>Zobacz na mapie Google</a>");
+
+  // Dodanie drugiego markera (Zakład produkcyjny Gomulin Kolonia)
+  var marker2 = L.marker([51.40635821919315, 19.569084988186415]).addTo(map); // Współrzędne Zakładu produkcyjnego Gomulin Kolonia
+  marker2.bindPopup("<b>Zakład produkcyjny</b><br>97-371 Gomulin Kolonia, ul. Wesoła 23<br><a href='https://www.google.com/maps?q=51.40635821919315,19.569084988186415' target='_blank'>Zobacz na mapie Google</a>");
+</script>
+
+    
     
     
     <footer class="footer">
