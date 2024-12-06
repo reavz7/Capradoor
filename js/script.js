@@ -149,3 +149,5 @@ checkFlexGap();
  updateDisplay();
  setInterval(updateDisplay, 1000);
  
+
+ 

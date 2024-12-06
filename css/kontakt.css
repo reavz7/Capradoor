@@ -44,3 +44,7 @@ a, .adres p, .telefon p, .godziny-otwarcia p, .email p{
     height: 15rem;
     padding: 1rem;
 }
+#map {
+    height: 500px;
+    width: 100%;
+  }
