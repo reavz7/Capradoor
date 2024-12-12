@@ -70,7 +70,7 @@ JASNY- #FFFBFF;
   .main-nav-link:hover,
   .main-nav-link:active {
     color: #742e00;
-    transform: perspective(1rem) scale(1.15);
+    transform: perspective(1rem) scale(1.10);
   }
   
   .main-nav-link.nav-cta:link,
@@ -260,10 +260,9 @@ JASNY- #FFFBFF;
     color: #FFFBFF;
   } 
 .nowe{
-    background-image: url("/assets/wood-2045379_1280.jpg.jpg");
-    background-size: cover;
-    background-clip:text;
-    color: transparent;
+  background: -webkit-linear-gradient(#F1DABF, #333);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
     text-shadow: 1px -1px 17px rgba(99, 58, 15, 1);
 }
 
@@ -492,11 +491,11 @@ JASNY- #FFFBFF;
   .glamour-bar{
     display: flex;
     justify-content: center;
-    align-items: center;        
+    align-items: center;          
     flex-direction: column;
     padding: 4rem;
-    background: rgb(241,218,191);
-background: linear-gradient(317deg, rgba(241,218,191,1) 0%, rgba(82,63,48,1) 67%, rgba(54,36,23,1) 100%);
+    background-image: url("/assets/brown-wooden-textured-flooring-background.jpg");
+    background-size: cover;
     color: #D6CCC2 ;
 }
 
