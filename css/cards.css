@@ -17,6 +17,7 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
 .oferta-description{
     text-align: center;
     font-size: 4.4rem;
@@ -46,7 +47,7 @@
     height: 100%;
     object-fit: cover;
   }
-
+  
   .swiper {
     margin-left: auto;
     margin-right: auto;

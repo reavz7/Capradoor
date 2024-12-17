@@ -71,7 +71,7 @@
   /* BUTTON */
   .button-27 {
     appearance: none;
-    background-color: #D5BDAF;
+    background-color: #ffffff;
     border: 2px solid #1A1A1A;
     border-radius: 15px;
     box-sizing: border-box;
@@ -96,8 +96,8 @@
   .button-27:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
-    background-color: #362417;
-    color: #ffd369;
+    background-color: #000000;
+    color: #ffffff;
   }
   
   .button-27:active {
@@ -105,10 +105,6 @@
     transform: translateY(0);
   }
   
-  .btn-addictional {
-    background-color: #F1DABF;
-    color: #1f1f1f;
-  }
 
 
 

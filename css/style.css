@@ -219,11 +219,11 @@ JASNY- #FFFBFF;
     justify-content: space-between;
   }
   .heading-primary {
-    font-size: 3.2rem;
+    font-size: 6.9rem;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 3.2rem;
-    color:  #F1DABF;
+    color:  #262626;
     margin-top: 20rem;
   }
   .heading-secondary {
@@ -255,7 +255,7 @@ JASNY- #FFFBFF;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 6.8rem;
-    color: #FFFBFF;
+    color: #ffffff;
   } 
 .nowe{
   background: -webkit-linear-gradient(#F1DABF, #333);
@@ -311,15 +311,16 @@ JASNY- #FFFBFF;
   border-radius: 50%;
 }
 .step-img-box::before{
-  background-color: #523928;
+  background-color: #3f3333;
   width: 75%;
   padding-bottom: 75%;
   z-index: -2;
 }
 .step-img-box::after{
-  width: 60%;
-  padding-bottom: 60%;
-  background-color: #bb9e8b;
+  width: 70%;
+  padding-bottom: 70%;
+  background-image: url("/Capradoor/assets/woodson.png");
+  background-size: cover;
   z-index: -1;
 }
 
@@ -391,6 +392,7 @@ JASNY- #FFFBFF;
 
   /* KONTAKT */
 
+  
   .kontakt-section{
     padding: 5.2rem;
     border-top: #000000 1px solid;
@@ -407,6 +409,7 @@ JASNY- #FFFBFF;
     font-weight: 800;
     letter-spacing: 1.2px;
     margin-bottom: 3.2rem;
+    text-align: center;
     color: rgb(0, 0, 0);
   }
   .kontakt-description{
