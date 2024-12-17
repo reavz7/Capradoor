@@ -32,12 +32,10 @@ JASNY- #FFFBFF;
   /* ------------------------------HEADER------------------------------- */
   
   .logo {   
-    height: 12rem;
-    transition: ease-in-out 0.2s;
+    height: 16rem;
+    text-align: center;
   }
-  .logo:hover {
-    transform: scale(106%) rotate(-5deg);
-  }
+
   
   .header {
     position: relative;
@@ -271,11 +269,11 @@ JASNY- #FFFBFF;
   padding: 16.6rem 0 0 0;
 }
 .step-img{  
-  width: 45%;
+  width: 115%;
   z-index: 10;
 }
 .step2_image{
-  width: 90%;
+  width: 115%;
 }
 
 .step-number{
@@ -295,6 +293,9 @@ JASNY- #FFFBFF;
   align-items: center;
   justify-content: center;
   
+}
+.kontakt-img img{
+  width: 80%;
 }
 .step-img-box::before,
 .step-img-box::after{
@@ -318,7 +319,7 @@ JASNY- #FFFBFF;
 .step-img-box::after{
   width: 60%;
   padding-bottom: 60%;
-  background-color: #362417;
+  background-color: #725a4a;
   z-index: -1;
 }
 
@@ -392,7 +393,6 @@ JASNY- #FFFBFF;
 
   .kontakt-section{
     padding: 5.2rem;
-    background-color: #362417;
     border-top: #000000 1px solid;
     border-bottom: #000000 1px solid;
   }
@@ -407,7 +407,7 @@ JASNY- #FFFBFF;
     font-weight: 800;
     letter-spacing: 1.2px;
     margin-bottom: 3.2rem;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .kontakt-description{
     text-align: center;
@@ -415,7 +415,7 @@ JASNY- #FFFBFF;
     letter-spacing: 0.4px;
     line-height: 3rem;
     margin-bottom: 4rem;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   /* --------------------------------------Footer---------------------------------- */
   .footer {
@@ -494,7 +494,8 @@ JASNY- #FFFBFF;
     align-items: center;          
     flex-direction: column;
     padding: 4rem;
-    background-image: url("/assets/brown-wooden-textured-flooring-background.jpg");
+    background-color: rgb(75, 65, 57);
+    background-image: url("/Capradoor/assets/brown-wooden-textured-flooring-background.jpg");
     background-size: cover;
     color: #D6CCC2 ;
 }
